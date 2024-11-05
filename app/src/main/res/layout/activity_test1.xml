@@ -13,7 +13,13 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:gravity="center"
-        android:text="OkHttp3 3.7.0" />
+        android:text="OkHttp 基础测试" />
+
+    <ImageView
+        android:id="@+id/imgv_test1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        />
 
     <Button
         android:layout_width="match_parent"
@@ -22,8 +28,13 @@
         android:gravity="center"
         android:onClick="onTest1"
         android:textAllCaps="false"
-        android:text="OkHttp 基础测试" />
+        android:text="使用同步方法" />
 
+    <ImageView
+        android:id="@+id/imgv_test2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        />
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -31,7 +42,6 @@
         android:gravity="center"
         android:onClick="onTest2"
         android:textAllCaps="false"
-        android:text="责任链" />
-
+        android:text="使用异步方法" />
 
 </LinearLayout>
